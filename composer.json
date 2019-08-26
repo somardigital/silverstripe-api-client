@@ -1,6 +1,6 @@
 {
-    "name": "somar/silverstripe-api-client",
-    "description": "Easily integrate with API's that provide a Open Api or Swagger file or define it yourself.",
+    "name": "somardesignstudios/silverstripe-api-client",
+    "description": "Easily integrate with API's that provide a Open Api or define it yourself.",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
