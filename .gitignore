@@ -1,0 +1,5 @@
+/vendor/
+/resources/
+*.log
+*.swp
+composer.lock

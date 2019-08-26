@@ -1,0 +1,31 @@
+{
+    "name": "somar/silverstripe-api-client",
+    "description": "Easily integrate with API's that provide a Open Api or Swagger file or define it yourself.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "api",
+        "swagger",
+        "open api"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Chris Tombleson",
+            "email": "chris@somar.co.nz"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "^4.0",
+        "silverstripe/framework": "^4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Somar\\SilverStripe\\APIClient\\": "src/"
+        }
+    }
+}
